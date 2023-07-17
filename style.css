@@ -191,6 +191,15 @@ main {
     margin: 15px;
 }
 
+.copyright {
+    text-align: center;
+    background-color: #FFF4E7;
+    width: 1140px;
+    margin: 100px auto;
+    padding: 30px;
+
+}
+
 
 
 
@@ -240,6 +249,10 @@ main {
     .badge {
         margin-left: 100px;
     }
+
+    .copyright {
+        width: 80%;
+    }
 }
 
 /* added medium size device responsive */
@@ -271,5 +284,9 @@ main {
 
     .badge {
         margin-left: 120px;
+    }
+    
+    .copyright {
+        width: 80%;
     }
 }
