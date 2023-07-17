@@ -132,6 +132,17 @@ main {
     margin-bottom: -20px;
 }
 
+/* sponsors section css start */
+.sponsors {
+    text-align: center;
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
 
 
 /* added header responsive css */
@@ -159,6 +170,12 @@ main {
         flex-direction: column;
         gap: 10px;
     }
+
+    .sponsors-img {
+        flex-direction: column;
+        gap: 20px;
+        margin: 80px;
+    }
 }
 
 /* added medium size device responsive */
@@ -170,5 +187,11 @@ main {
     nav,
     .teams-container {
         flex-direction: column;
+    }
+
+    .sponsors-img {
+        flex-direction: column;
+        gap: 100px;
+        margin: 200px;
     }
 }
